@@ -26,7 +26,6 @@ public class FlightController {
 	{
 		System.out.println(from+", "+to+", "+departureDate);
 		List<Flight> flights = flightRepository.findFlights(from,to,departureDate);
-		System.out.println(flights);
 		modelMap.addAttribute("flights", flights);
 		return "displayFlights";
 	}

@@ -13,7 +13,7 @@
 	<br /> Airline : ${flight.arrivalCity}
 	<br />
 
-	<form action="completeReservation" method="post"></form>
+	<form action="completeReservation" method="post">
 <pre>
 
 <h2>Passenger Details : </h2>

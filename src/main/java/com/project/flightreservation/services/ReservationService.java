@@ -5,7 +5,5 @@ import com.project.flightreservation.entities.Reservation;
 
 public interface ReservationService {
 	
-	public void bookFlight(ReservationRequest request) {
-		
-	}
+	public Reservation bookFlight(ReservationRequest request);
 }

@@ -11,7 +11,7 @@
 <form action="findFlights" method = "POST">
 From : <input type = "text" name = "from"/>
 To : <input type = "text" name = "to"/>
-Departure Date : <input type = "text" name = "departureDate"/>
+Departure Date(YYYY-MM-DD) : <input type = "text" name = "departureDate"/>
 <input type = "submit" value = "search"/>
 </form>
 
